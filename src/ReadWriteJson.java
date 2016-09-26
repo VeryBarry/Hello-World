@@ -11,6 +11,7 @@ public class ReadWriteJson {
         Person p = new Person("Barry Daniels", 25, true);
         File f = new File("person.json");
 
+
         //how to write a json
         JsonSerializer serializer = new JsonSerializer();
         String json = serializer.serialize(p);
